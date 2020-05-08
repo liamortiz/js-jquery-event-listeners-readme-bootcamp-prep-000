@@ -1,11 +1,13 @@
 getIt = () => {
-  $('p').on('click', (event) => {
+  $('p').on('click', () => {
     alert("Hey!")
   })
 }
 
 frameIt = () => {
-  
+  $('img').on('load', () => {
+    
+  })
 }
 
 pressIt = () => {
@@ -15,7 +17,7 @@ pressIt = () => {
 }
 
 submitIt = () => {
-  $('form').on('submit', (event) => {
+  $('form').on('submit', () => {
     alert("Your form is going to be submitted now.")
   })
 }
