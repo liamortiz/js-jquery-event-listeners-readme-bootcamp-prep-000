@@ -9,7 +9,7 @@ frameIt = () => {
 
 pressIt = () => {
   $('input').on('keydown', (event) => {
-    if (event.key === 'G') {alert("You pressed G")}
+    if (event.key === 'G') {alert("spy")}
   })
 }
 
