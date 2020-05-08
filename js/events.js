@@ -12,7 +12,7 @@ frameIt = () => {
 
 pressIt = () => {
   $('input').on('keydown', (event) => {
-    if (event.key === 'G') {alert("spy")}
+    if (event.key === 'g') {alert("")}
   })
 }
 
