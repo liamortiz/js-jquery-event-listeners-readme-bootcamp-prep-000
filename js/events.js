@@ -5,6 +5,7 @@ getIt = () => {
 }
 
 frameIt = () => {
+  
 }
 
 pressIt = () => {
@@ -24,5 +25,6 @@ $(document).ready(function(){
 getIt()
 pressIt()
 submitIt()
+frameIt()
 
 });
