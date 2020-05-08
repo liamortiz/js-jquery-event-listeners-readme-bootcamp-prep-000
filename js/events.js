@@ -1,4 +1,23 @@
-//define functions here
+getIt = () => {
+  $('p').on('click', (event) => {
+    alert("Hey!")
+  })
+}
+
+frameIt = () => {
+}
+
+pressIt = () => {
+  $('input').on('keydown', (event) => {
+    if (event.key === 'G') {alert("You pressed G")}
+  })
+}
+
+submitIT = () => {
+  $('form').on('submit', (event) => {
+    alert("Your form is going to be submitted now.")
+  })
+}
 
 $(document).ready(function(){
 
