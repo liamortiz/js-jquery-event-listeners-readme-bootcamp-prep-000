@@ -13,7 +13,7 @@ pressIt = () => {
   })
 }
 
-submitIT = () => {
+submitIt = () => {
   $('form').on('submit', (event) => {
     alert("Your form is going to be submitted now.")
   })
@@ -21,6 +21,8 @@ submitIT = () => {
 
 $(document).ready(function(){
 
-// call functions here
+getIt()
+pressIt()
+submitIt()
 
 });
